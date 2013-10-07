@@ -1,0 +1,126 @@
+Texto:
+Sabe, estive pen
+sando, e o melho
+r é usar o RSA n
+o lugar do Diffi
+e Hellman. Andei
+ lendo um pouco 
+a respeito, e nã
+o é tão complica
+do assim. Os cál
+culos são bem pa
+recidos, e com o
+ RSA dá até para
+ fazer assinatur
+a digital. Quer 
+ver?
+
+Vamos pr
+ecisar de dois p
+rimos. Um deles 
+eu já gerei:
+57
+0073418164537843
+4561188374130529
+072194886064169
+
+
+Vou enviar o 
+segundo primo no
+ segundo arquivo
+.
+
+Se por acas
+o você não conse
+guir decifrar o 
+segundo arquivo,
+ então faça o se
+guinte:
+
+1 - G
+ere um segundo p
+rimo (maior que 
+o primo dado aci
+ma, por favor) -
+ para isto, é bo
+m usar uma funçã
+o de teste de pr
+imalidade, ou en
+tão implementar 
+um teste determi
+nístico.
+
+2 - 
+Calcule o "n" do
+ RSA multiplican
+do estes dois pr
+imos (o que está
+ neste arquivo e
+ o que você gero
+u).
+
+3 - Calcu
+le (n,e) e (n,d)
+, as tuas chaves
+ pública e priva
+da, de acordo co
+m o indicado pel
+o RSA.
+
+4 - As
+sine o "desafio"
+ abaixo com a tu
+a chave secreta:
+
+50896380646021
+7157251376378453
+850802085
+
+Iss
+o é bem seguro. 
+Tão seguro que e
+u até lanço um d
+esafio aqui: se 
+algum aluno esti
+ver lendo isto, 
+então siga as me
+smas instruções 
+e coloque no Moo
+dle a chave públ
+ica (o par (n,e)
+) e o desafio as
+sinado (ou seja,
+ o resultado de 
+(desafio^d mod n
+))
+
+E sabe de 
+uma coisa? Desco
+bri um ótimo ger
+ador de randômic
+os. Daqui para a
+ frente, vou usa
+r somente ele:
+
+                
+         2^x . 3
+^y . 5^w . 7^z
+
+onde x, y, w e z
+ são inteiros po
+sitivos maiores 
+que zero. 
+
+As
+sinado: BOB
+
+
+
+ATENÇÃO: para s
+er dispensado da
+ prova de cripto
+grafia, você tem
+ que decifrar o 
+segundo arquivo!
+!
+

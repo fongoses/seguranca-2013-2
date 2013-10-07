@@ -1,0 +1,21 @@
+Se vocês chegaram até aqui, parabéns! O mais difícil já passou.
+
+O restante é somente um exercício sobre o RSA. 
+
+Para isto vamos precisar de dois primos. Um deles já foi entregue no primeiro arquivo. O segundo é:
+35894562752016259689151502540913447503526083244127
+
+Não precisam fazer o que "BOB" pede no primeiro arquivo. Sigam estas instruções para gerar chaves RSA:
+
+1 - Calculem o "n" multiplicando estes dois primos (o que está neste arquivo e o que estava no primeiro arquivo)
+
+2 - Calculem (n,e) e (n,d), as chaves pública e privada de vocês, de acordo com o indicado pelo RSA.
+
+3 - Assinem o "desafio" abaixo com a chave secreta de vocês:
+79657283408167701961383242801433670716
+
+4 - Coloquem no Moodle a chave pública (o par (n,e)) e o desafio assinado (ou seja, o resultado de (desafio^d mod n))
+
+E se vocês já tinham resolvido com sucesso todos os demais desafios, parabéns! Estão dispensados da primeira prova!
+
+Assinado: Weber (Não, não sou Alice nem Bob...)
